@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF9800"
-    tools:context=".MainActivity">
+    android:background="#FDB95B"
+    tools:context=".ui.MainActivity">
 
     <LinearLayout
         android:layout_width="391dp"
         android:layout_height="702dp"
-        android:background="#FF9800"
+        android:background="#FFFDB95B"
         android:layoutMode="clipBounds"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,18 +20,13 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="338dp" />
+            android:layout_height="194dp" />
 
-        <TextView
-            android:id="@+id/loadingTitle"
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/baloo_chettan"
-            android:text="@string/app_name"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="60sp"
-            android:textStyle="normal" />
+            android:layout_height="215dp"
+            app:srcCompat="@drawable/mapello_logo" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

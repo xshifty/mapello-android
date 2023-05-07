@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".LoginActivity">
+    tools:context=".ui.LoginActivity">
 
     <LinearLayout
         android:layout_width="372dp"
@@ -24,19 +24,21 @@
             android:id="@+id/loginTitle"
             android:layout_width="match_parent"
             android:layout_height="133dp"
+            android:fontFamily="@font/baloo_chettan"
             android:text="@string/app_name"
             android:textAlignment="center"
-            android:textSize="60sp"
+            android:textColor="#FFFDB95B"
+            android:textSize="82sp"
             android:textStyle="normal" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="133dp" />
+            android:layout_height="89dp" />
 
         <EditText
             android:id="@+id/loginText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="58dp"
             android:ems="10"
             android:hint="E-mail ou nome de usuario"
             android:inputType="text" />
@@ -44,10 +46,14 @@
         <EditText
             android:id="@+id/loginPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             android:ems="10"
             android:hint="Senha de acesso"
             android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="69dp" />
 
         <Button
             android:id="@+id/doLogin"
@@ -55,15 +61,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autoText="false"
-            android:background="#FF9800"
+            android:background="#FFFDB95B"
             android:hint="Efetuar login"
             android:text="Entrar"
-            app:backgroundTint="#ff9800"
-            app:iconTint="#FFC107" />
+            app:backgroundTint="#FFFDB95B"
+            app:iconTint="#FFFDB95B" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="113dp" />
+            android:layout_height="85dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,7 +82,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Criar conta"
-                android:textSize="10sp" />
+                android:textSize="10sp"
+                app:backgroundTint="#FFFDB95B" />
 
             <Space
                 android:layout_width="223dp"
@@ -89,7 +96,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Esqueci minha senha"
-                android:textSize="10sp" />
+                android:textSize="10sp"
+                app:backgroundTint="#FFFDB95B" />
 
         </LinearLayout>
 

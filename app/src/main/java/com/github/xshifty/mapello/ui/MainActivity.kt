@@ -1,8 +1,9 @@
-package com.github.xshifty.mapello
+package com.github.xshifty.mapello.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.github.xshifty.mapello.R
 import java.util.Timer
 import java.util.TimerTask
 
